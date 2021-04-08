@@ -2,7 +2,7 @@
   <div id="favourite_beers">
     <h2>Favourite Beers</h2>
     <ul>
-      <li v-for="favouriteBeer in favouriteBeers">{{favouriteBeer.name}} <img class="small-beer" :src="favouriteBeer.image_url"/><button @click="removeFromFavourites(favouriteBeer)">Remove Beer</button>
+      <li v-for="favouriteBeer in favouriteBeers">{{favouriteBeer.name}} <img class="small-beer" :src="favouriteBeer.image_url"/><br><button @click="removeFromFavourites(favouriteBeer)"> Remove Beer</button>
 </li>
     </ul>
   </div>
@@ -22,7 +22,7 @@ export default {
 
 <style lang="css" scoped>
 .small-beer {
-  height: 20px;
+  height: 50px;
 }
 
 li {
