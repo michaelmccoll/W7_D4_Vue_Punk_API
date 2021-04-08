@@ -45,6 +45,7 @@ methods: {
   addToFavourites: function() {
     this.favouriteBeers.push(this.selectedBeer)
   },
+
 }
 }
 </script>
